@@ -1,7 +1,7 @@
 const Order = require("../models/orderModel");
 const User = require("../models/userModel");
 
-const frontendUrl = "http://localhost:5174";
+const frontendUrl = "https://food-delivery-page-frontend.onrender.com";
 const Stripe = require("stripe");
 const stripe = new Stripe(process.env.STRIPESECRETKEY);
 
