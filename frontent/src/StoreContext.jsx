@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
 	const [cartitem, setcartitem] = useState({});
-	const apiUrl = "http://localhost:4000";
+	const apiUrl = "https://food-delivery-page-backend.onrender.com";
 	const [token, setToken] = useState("");
 	const [food_list, setfood_list] = useState([]);
 
