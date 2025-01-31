@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar";
 import { Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 const App = () => {
-	const url = "http://localhost:4000";
+	const url = "https://food-delivery-page-backend.onrender.com";
 	return (
 		<div className="overflow-x-hidden">
 			<ToastContainer />
