@@ -11,7 +11,7 @@ const DisplayFood = ({ category }) => {
       <h1 className="text-3xl font-semibold mb-6">Top Dishes near you</h1>
 
   
-      <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-20 lg:grid-cols-3  lg:gap-x-32 xl:grid-cols-4 xl:gap-x-28   ">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-x-20 lg:grid-cols-3  lg:gap-x-32 xl:grid-cols-4 xl:gap-x-28   ">
         {food_list.map((item, index) => {
           if (category === "All" || category === item.category) {
             return (
